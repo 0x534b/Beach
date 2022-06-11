@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "top": "beach:blocks/portable_table_top",
+    "bottom": "beach:blocks/portable_table_bottom",
+    "side": "beach:blocks/portable_table_side"
+  }
+}

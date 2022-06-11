@@ -1,8 +1,11 @@
 package com.jetbrains.beach;
 
+import com.jetbrains.beach.init.BlockInit;
 import com.jetbrains.beach.init.ItemInit;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -30,19 +33,21 @@ public class Beach {
 
 
     public Beach() {
-        // Register the setup method for modloading
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
-        // Register the enqueueIMC method for modloading
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::enqueueIMC);
-        // Register the processIMC method for modloading
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::processIMC);
-        // Register the doClientStuff method for modloading
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
-
         final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        // Register the setup method for modloading
+        modEventBus.addListener(this::setup);
+        // Register the enqueueIMC method for modloading
+        modEventBus.addListener(this::enqueueIMC);
+        // Register the processIMC method for modloading
+        modEventBus.addListener(this::processIMC);
+        // Register the doClientStuff method for modloading
+        modEventBus.addListener(this::doClientStuff);
+
 
         modEventBus.addListener(this::setup);
         ItemInit.ITEMS.register(modEventBus);
+        BlockInit.BLOCKS.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
@@ -50,13 +55,23 @@ public class Beach {
 
     private void setup(final FMLCommonSetupEvent event) {
         // some preinit code
-        LOGGER.info("HELLO FROM PREINIT");
+        LOGGER.info("HELLO FROM SIDD (PREINIT)");
         LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {
         // do something that can only be done on the client
         LOGGER.info("Got game settings {}", event.getMinecraftSupplier().get().gameSettings);
+
+//        RenderType solid = RenderType.func_228639_c_();
+//        RenderType cutout_mipped = RenderType.func_228641_d_();
+//        RenderType cutout = RenderType.func_228643_e_();
+//        RenderType translucent = RenderType.func_228645_f_();
+//        RenderType translucent_no_crumbling = RenderType.func_228647_g_();
+
+        RenderType cutout_mipped = RenderType.getCutoutMipped();
+
+        RenderTypeLookup.setRenderLayer(BlockInit.PORTABLE_TABLE_BLOCK.get(), cutout_mipped);
     }
 
     private void enqueueIMC(final InterModEnqueueEvent event) {

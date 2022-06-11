@@ -1,5 +1,6 @@
 {
   "itemGroup.beach": "Beach Items",
 
-  "item.beach.wine_bag": "Wine Bag"
+  "item.beach.wine_bag": "Wine Bag",
+  "block.beach.portable_table": "Portable Table"
 }

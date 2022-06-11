@@ -4,7 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" name="Changes" comment="" />
+    <list default="true" id="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/init/BlockInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/blockstates/portable_table.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/models/block/portable_table.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/models/item/portable_table.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/textures/blocks/portable_table_bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/textures/blocks/portable_table_side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/textures/blocks/portable_table_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/beach/loot_tables/blocks/portable_table.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/runClient.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/runClient.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/runData.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/runData.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/Beach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/Beach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/init/ItemInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/init/ItemInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/beach/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/beach/textures/items/wine_bag.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/textures/items/wine_bag.png" afterDir="false" />
+    </list>
+    <list id="4c82b18c-6d5b-4338-9df0-1aab714fb931" name="Changes by anthonywang" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/init/ItemInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/init/ItemInit.java" afterDir="false" />
+    </list>
+    <list id="c442f757-c18a-44a8-ba09-22a62548948b" name="Changes by Sidd" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/Beach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/Beach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/init/ItemInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/init/ItemInit.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,17 +48,50 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/Beach.java">
+      <ranges>
+        <range start1="2" end1="2" start2="2" end2="3" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
+        <range start1="5" end1="5" start2="6" end2="8" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
+        <range start1="32" end1="32" start2="35" end2="37" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
+        <range start1="33" end1="34" start2="38" end2="39" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
+        <range start1="35" end1="36" start2="40" end2="41" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
+        <range start1="37" end1="38" start2="42" end2="43" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
+        <range start1="39" end1="40" start2="44" end2="45" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
+        <range start1="41" end1="42" start2="46" end2="46" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
+        <range start1="45" end1="45" start2="49" end2="50" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
+        <range start1="52" end1="53" start2="57" end2="58" changelist="c442f757-c18a-44a8-ba09-22a62548948b" />
+        <range start1="59" end1="59" start2="64" end2="74" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/init/ItemInit.java">
+      <ranges>
+        <range start1="10" end1="10" start2="10" end2="13" changelist="4c82b18c-6d5b-4338-9df0-1aab714fb931" />
+        <range start1="15" end1="16" start2="18" end2="19" changelist="c442f757-c18a-44a8-ba09-22a62548948b" />
+        <range start1="17" end1="18" start2="20" end2="22" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
+        <range start1="19" end1="19" start2="23" end2="24" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
+        <range start1="20" end1="21" start2="25" end2="71" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
+        <range start1="22" end1="23" start2="72" end2="75" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
+        <range start1="24" end1="26" start2="76" end2="78" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
+        <range start1="28" end1="31" start2="80" end2="82" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
+        <range start1="32" end1="33" start2="83" end2="102" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
+      </ranges>
+    </file>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2AP9rCczp62QkQlvweuOQRkGteg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
@@ -49,7 +105,7 @@
     <configuration name="beach build" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" value="beach build" />
-        <option name="externalProjectPath" value="C:\Users\Kevin\src\Minecraft Mods\Beach" />
+        <option name="externalProjectPath" value="D:\src\Minecraft Mods\Beach" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -88,6 +144,7 @@
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="added wine bag" />
     <option name="LAST_COMMIT_MESSAGE" value="added wine bag" />
   </component>
