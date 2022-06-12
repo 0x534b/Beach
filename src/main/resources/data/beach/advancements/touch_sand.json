@@ -1,0 +1,33 @@
+{
+  "display": {
+    "title": {
+      "text": "Touch Sand",
+      "color": "blue",
+      "bold": true,
+      "underlined": false,
+      "strikethrough": false,
+      "obfuscated": false
+    },
+    "description": {
+      "text": "Time to hit the beach!"
+    },
+    "icon": {
+      "item": "minecraft:sand"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "touchSand": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:sand"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 2000000000
+  }
+}

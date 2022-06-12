@@ -1,6 +1,16 @@
 {
   "itemGroup.beach": "Beach Items",
 
+  "block.beach.portable_table": "Portable Table",
+  "block.beach.beach_towel": "Beach Towel",
+  "block.beach.beach_umbrella": "Beach Umbrella",
+  "block.beach.beach_tent": "Beach Tent",
+
   "item.beach.wine_bag": "Wine Bag",
-  "block.beach.portable_table": "Portable Table"
+  "item.beach.beach_helm": "Sunglasses",
+  "item.beach.beach_chest": "Beach Body",
+  "item.beach.beach_pants": "Shorts",
+  "item.beach.beach_toes": "Sandals",
+  "item.beach.sunscreen": "Sunscreen",
+  "item.beach.beachball": "Beach Ball"
 }

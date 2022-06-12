@@ -70,8 +70,11 @@ public class Beach {
 //        RenderType translucent_no_crumbling = RenderType.func_228647_g_();
 
         RenderType cutout_mipped = RenderType.getCutoutMipped();
+//        RenderType cutout = RenderType.getCutout();
 
         RenderTypeLookup.setRenderLayer(BlockInit.PORTABLE_TABLE_BLOCK.get(), cutout_mipped);
+        RenderTypeLookup.setRenderLayer(BlockInit.BEACH_TENT.get(), cutout_mipped);
+        RenderTypeLookup.setRenderLayer(BlockInit.BEACH_UMBRELLA.get(), cutout_mipped);
     }
 
     private void enqueueIMC(final InterModEnqueueEvent event) {
@@ -95,7 +98,6 @@ public class Beach {
         // do something when the server starts
         LOGGER.info("HELLO from server starting");
     }
-
     // You can use EventBusSubscriber to automatically subscribe events on the contained class (this is subscribing to the MOD
     // Event bus for receiving Registry Events)
     @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -106,4 +108,8 @@ public class Beach {
             LOGGER.info("HELLO from Register Block");
         }
     }
+
+
+
+
 }

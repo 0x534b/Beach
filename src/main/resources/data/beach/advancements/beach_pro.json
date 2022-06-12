@@ -1,0 +1,29 @@
+{
+  "display": {
+    "title": {
+      "text": "Beach Pro?"
+    },
+    "description": {
+      "text": "nice beachball"
+    },
+    "icon": {
+      "item": "beach:beachball"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "useBeachball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "beach:beachball"
+          }
+        ]
+      }
+    }
+  }
+}

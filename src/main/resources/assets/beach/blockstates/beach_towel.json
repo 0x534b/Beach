@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "beach:block/beach_towel" },
+    "facing=south": { "model": "beach:block/beach_towel", "y": 180},
+    "facing=west": { "model": "beach:block/beach_towel", "y": 270},
+    "facing=east": { "model": "beach:block/beach_towel", "y": 90 }
+  }
+}

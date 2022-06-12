@@ -1,0 +1,38 @@
+{
+  "display": {
+    "title": {
+      "text": "Fully equipped"
+    },
+    "description": {
+      "text": "ur decked out for the beach"
+    },
+    "icon": {
+      "item": "beach:beach_helm"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "c1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "beach:beach_helm"
+          },
+          {
+            "item": "beach:beach_chest"
+          },
+          {
+            "item": "beach:beach_pants"
+          },
+          {
+            "item": "beach:beach_toes"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -5,27 +5,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/init/BlockInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/blockstates/portable_table.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/models/block/portable_table.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/models/item/portable_table.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/textures/blocks/portable_table_bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/textures/blocks/portable_table_side.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/textures/blocks/portable_table_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/beach/loot_tables/blocks/portable_table.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/runClient.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/runClient.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/runData.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/runData.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/blockstates/beach_tent.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/blockstates/beach_towel.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/blockstates/beach_umbrella.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/models/block/beach_tent.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/models/block/beach_towel.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/models/block/beach_umbrella.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/models/item/beach_chest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/models/item/beach_helm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/models/item/beach_pants.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/models/item/beach_tent.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/models/item/beach_toes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/models/item/beach_towel.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/models/item/beach_umbrella.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/models/item/beachball.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/models/item/sunscreen.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/textures/blocks/beach_towel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/textures/blocks/blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/textures/blocks/handle_texture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/textures/blocks/poles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/textures/blocks/red_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/textures/blocks/tippytop_texture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/textures/blocks/top_texture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/textures/blocks/top_texture1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/textures/blocks/top_texture2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/textures/blocks/top_texture3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/textures/blocks/top_texture4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/textures/blocks/yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/textures/items/beach_chest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/textures/items/beach_hat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/textures/items/beach_pants.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/textures/items/beach_tent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/textures/items/beach_toes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/textures/items/beach_towel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/textures/items/beach_umbrella.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/textures/items/beachball.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/textures/items/sunscreen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/textures/models/armor/beach_drip_layer_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/textures/models/armor/beach_drip_layer_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/beach/advancements/beach_pro.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/beach/advancements/drinking_away_the_night.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/beach/advancements/first_beach_trip.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/beach/advancements/fully_equipped.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/beach/advancements/touch_sand.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/beach/recipes/beach_tent.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/beach/recipes/beach_towel.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/beach/recipes/beach_umbrella.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/beach/recipes/beachball.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/beach/recipes/portable_table.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/beach/recipes/sunscreen.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/beach/recipes/wine_bag.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/Beach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/Beach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/init/BlockInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/init/BlockInit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/init/ItemInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/init/ItemInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/beach/blockstates/portable_table.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/blockstates/portable_table.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/beach/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/beach/textures/items/wine_bag.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/textures/items/wine_bag.png" afterDir="false" />
     </list>
     <list id="4c82b18c-6d5b-4338-9df0-1aab714fb931" name="Changes by anthonywang" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/Beach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/Beach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/init/BlockInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/init/BlockInit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/init/ItemInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/init/ItemInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/beach/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/beach/lang/en_us.json" afterDir="false" />
     </list>
     <list id="c442f757-c18a-44a8-ba09-22a62548948b" name="Changes by Sidd" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/Beach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/Beach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/init/BlockInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/init/BlockInit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/init/ItemInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/init/ItemInit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,32 +93,52 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/Beach.java">
-      <ranges>
-        <range start1="2" end1="2" start2="2" end2="3" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
-        <range start1="5" end1="5" start2="6" end2="8" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
-        <range start1="32" end1="32" start2="35" end2="37" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
-        <range start1="33" end1="34" start2="38" end2="39" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
-        <range start1="35" end1="36" start2="40" end2="41" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
-        <range start1="37" end1="38" start2="42" end2="43" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
-        <range start1="39" end1="40" start2="44" end2="45" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
-        <range start1="41" end1="42" start2="46" end2="46" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
-        <range start1="45" end1="45" start2="49" end2="50" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
-        <range start1="52" end1="53" start2="57" end2="58" changelist="c442f757-c18a-44a8-ba09-22a62548948b" />
-        <range start1="59" end1="59" start2="64" end2="74" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
-      </ranges>
-    </file>
     <file path="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/init/ItemInit.java">
       <ranges>
-        <range start1="10" end1="10" start2="10" end2="13" changelist="4c82b18c-6d5b-4338-9df0-1aab714fb931" />
-        <range start1="15" end1="16" start2="18" end2="19" changelist="c442f757-c18a-44a8-ba09-22a62548948b" />
-        <range start1="17" end1="18" start2="20" end2="22" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
-        <range start1="19" end1="19" start2="23" end2="24" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
-        <range start1="20" end1="21" start2="25" end2="71" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
-        <range start1="22" end1="23" start2="72" end2="75" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
-        <range start1="24" end1="26" start2="76" end2="78" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
-        <range start1="28" end1="31" start2="80" end2="82" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
-        <range start1="32" end1="33" start2="83" end2="102" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
+        <range start1="4" end1="7" start2="4" end2="20" changelist="c442f757-c18a-44a8-ba09-22a62548948b" />
+        <range start1="11" end1="12" start2="24" end2="27" changelist="c442f757-c18a-44a8-ba09-22a62548948b" />
+        <range start1="19" end1="19" start2="34" end2="35" changelist="c442f757-c18a-44a8-ba09-22a62548948b" />
+        <range start1="20" end1="21" start2="36" end2="39" changelist="c442f757-c18a-44a8-ba09-22a62548948b" />
+        <range start1="22" end1="22" start2="40" end2="73" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
+        <range start1="23" end1="23" start2="74" end2="76" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
+        <range start1="33" end1="34" start2="86" end2="87" changelist="c442f757-c18a-44a8-ba09-22a62548948b" />
+        <range start1="35" end1="35" start2="88" end2="92" changelist="4c82b18c-6d5b-4338-9df0-1aab714fb931" />
+        <range start1="37" end1="64" start2="94" end2="123" changelist="4c82b18c-6d5b-4338-9df0-1aab714fb931" />
+        <range start1="65" end1="97" start2="124" end2="131" changelist="4c82b18c-6d5b-4338-9df0-1aab714fb931" />
+        <range start1="98" end1="98" start2="132" end2="135" changelist="4c82b18c-6d5b-4338-9df0-1aab714fb931" />
+        <range start1="99" end1="99" start2="136" end2="139" changelist="4c82b18c-6d5b-4338-9df0-1aab714fb931" />
+        <range start1="100" end1="100" start2="140" end2="143" changelist="4c82b18c-6d5b-4338-9df0-1aab714fb931" />
+        <range start1="101" end1="101" start2="144" end2="172" changelist="4c82b18c-6d5b-4338-9df0-1aab714fb931" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/Beach.java">
+      <ranges>
+        <range start1="72" end1="72" start2="72" end2="73" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
+        <range start1="74" end1="74" start2="75" end2="77" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
+        <range start1="97" end1="98" start2="100" end2="100" changelist="4c82b18c-6d5b-4338-9df0-1aab714fb931" />
+        <range start1="108" end1="108" start2="110" end2="114" changelist="4c82b18c-6d5b-4338-9df0-1aab714fb931" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/main/java/com/jetbrains/beach/init/BlockInit.java">
+      <ranges>
+        <range start1="3" end1="3" start2="3" end2="4" changelist="c442f757-c18a-44a8-ba09-22a62548948b" />
+        <range start1="7" end1="7" start2="8" end2="12" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
+        <range start1="8" end1="11" start2="13" end2="19" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
+        <range start1="12" end1="12" start2="20" end2="21" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
+        <range start1="15" end1="15" start2="24" end2="31" changelist="c442f757-c18a-44a8-ba09-22a62548948b" />
+        <range start1="24" end1="24" start2="40" end2="41" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
+        <range start1="37" end1="38" start2="54" end2="55" changelist="c442f757-c18a-44a8-ba09-22a62548948b" />
+        <range start1="40" end1="40" start2="57" end2="59" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
+        <range start1="44" end1="53" start2="63" end2="69" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
+        <range start1="55" end1="55" start2="71" end2="74" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
+        <range start1="56" end1="56" start2="75" end2="96" changelist="4c82b18c-6d5b-4338-9df0-1aab714fb931" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/main/resources/assets/beach/lang/en_us.json">
+      <ranges>
+        <range start1="3" end1="3" start2="3" end2="8" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
+        <range start1="4" end1="5" start2="9" end2="15" changelist="8443d76f-1ce7-4ad5-bb06-4d84bb94cbc7" />
+        <range start1="6" end1="6" start2="16" end2="17" changelist="4c82b18c-6d5b-4338-9df0-1aab714fb931" />
       </ranges>
     </file>
   </component>
@@ -95,6 +159,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
+    "jdk.selected.JAVA_MODULE": "openjdk-18",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",

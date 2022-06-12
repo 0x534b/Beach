@@ -1,0 +1,29 @@
+{
+  "display": {
+    "title": {
+      "text": "Drinking away the night",
+      "color": "dark_green"
+    },
+    "description": {
+      "text": "fancy that wine bag?",
+      "obfuscated": false
+    },
+    "icon": {
+      "item": "beach:wine_bag"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "drinkWineBag": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "beach:wine_bag"
+        }
+      }
+    }
+  }
+}
